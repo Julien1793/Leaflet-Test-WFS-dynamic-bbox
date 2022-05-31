@@ -62,6 +62,7 @@ function init(){
     
             // Fonction Leaflet pour récupérer la BBOX dans la carte (xmin,ymin,xmax,ymax)
             // Problème ! cette méthode BBOX n'est pas compatible avec l'API IGN
+            // !!! Cette variable ne peut pas être utilisée dans la requete  !!!
             var customParams2 = {
                 bbox2: map.getBounds().toBBoxString()
             };
