@@ -74,7 +74,7 @@ function init(){
             // Transformation de la liste BBOX en texte pour le requetage
             var customParams={bbox:test.join()};
 
-            // Renvoie les messages de la BBOX pour vérifier l'inversion x;y de la BBOX
+            // Renvoie les messages de la BBOX pour vérifier l'inversion des x;y
             console.log(test.join());
             console.log(customParams2);
             console.log(customParams);
