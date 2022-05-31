@@ -1,2 +1,2 @@
 # Leaflet-_test_WFS_IGN_dynamic_bbox
-Modèle Lefleat qui permet d'affichier un flux WGS (IGN) avec un chargement des données en fonction de l'emprise. Ce projet Leaflet a été créé afin de tester le flux WFS de l'IGN suite a des problèmes rencontrés sur portal for ArcGIS.
+Modèle Lefleat qui permet d'affichier un flux WGS (IGN) avec un chargement des données en fonction de l'emprise. À chaque changement d'emprise une nouvelle requête est envoyée afin de récupérer les données.
