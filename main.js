@@ -28,7 +28,7 @@ function init(){
                 return{color:"red"};
             },
             onEachFeature: function (feature,layer){
-                layer.bindPopup('numero : '+feature.properties.numero)
+                layer.bindPopup('<div id="numero : _div">'+feature.properties.numero)
             }
         
         }).addTo(map);
