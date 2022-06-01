@@ -12,7 +12,7 @@ function init(){
     });
     mainLayer.addTo(map);
 
-    var start_at_zoom = 8;
+    var start_at_zoom = 15;
 
     function onEachFeature(feature, layer) {
         // does this feature have a property named dz?
