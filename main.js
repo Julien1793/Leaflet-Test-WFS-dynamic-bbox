@@ -65,8 +65,8 @@ function init(){
             // Fonction Leaflet pour récupérer la BBOX dans la carte (xmin,ymin,xmax,ymax)
             // Problème ! cette méthode BBOX n'est pas compatible avec l'API IGN
             // !!! Cette variable ne peut pas être utilisée dans la requete  !!!
-            var customParams2 = {
-                bbox2: map.getBounds().toBBoxString()
+            var customParams_fail = {
+                bbox_fail: map.getBounds().toBBoxString()
             };
             // Création liste : inversement des x;y pour le requetage WFS IGN => ymin,xmin,ymax,xmax
             var test = [map.getBounds().getSouth().toString(),
