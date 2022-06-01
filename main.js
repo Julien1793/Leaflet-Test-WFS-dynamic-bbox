@@ -78,7 +78,7 @@ function init(){
 
             // Renvoie les messages de la BBOX pour vérifier l'inversion des x;y
             console.log(test.join());
-            console.log(customParams2);
+            console.log(customParams_fail);
             console.log(customParams);
             
             // Renvoie l'url avec les requetes => permet de vérifier la construction de l'url
