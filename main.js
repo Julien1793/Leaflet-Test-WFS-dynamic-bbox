@@ -46,12 +46,12 @@ function init(){
     
     function load_wfs() {
         if (map.getZoom() > start_at_zoom) {
-            var geoJsonUrl = 'https://wxs.ign.fr/cartovecto/geoportail/wfs';
+            var geoJsonUrl = 'https://wxs.ign.fr/parcellaire/geoportail/wfs';
             var defaultParameters = {
                 service: 'WFS',
                 version: '2.0.0',
                 request: 'getFeature',
-                typeName: 'BDCARTO_BDD_WLD_WGS84G:zone_occupation_sol',
+                typeName: 'CADASTRALPARCELS.PARCELLAIRE_EXPRESS:parcelle',
                 //COUNT: 3000,
                 outputFormat: 'json',
                 //format_options: 'callback: getJson',
