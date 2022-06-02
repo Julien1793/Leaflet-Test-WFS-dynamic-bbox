@@ -96,7 +96,8 @@ function init(){
 
     
         } else {
-            alert("Zoom in to see the polygons!");
+            //alert("Zoom in to see the polygons!");
+            console.log("Zoom in to see the layer!");
             featureLayer.clearLayers();
         }
     }
