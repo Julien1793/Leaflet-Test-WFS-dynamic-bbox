@@ -28,7 +28,7 @@ function init(){
                 return{color:"red"};
             },
             onEachFeature: function (feature,layer){
-                layer.bindPopup('<h3>'+'Parcelle'+'</h3>'+
+                layer.bindPopup('<h3>'+'Parcelle (IGN)'+'</h3>'+
                 '<p><span>Section : </span>'+feature.properties.section +
                 '<p><span>Numero : </span>'+feature.properties.numero
                 )
